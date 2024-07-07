@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcb6e8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/1419844586/vector/stem-blue-horizontal-frame-vector-education-bright-illustration.jpg?s=612x612&w=0&k=20&c=-A1eYLYulujNsiM26lkVy7qMT_Hp82N5EtKHSFRmigk='); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .calculator {
+ 
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 5px solid rgba(255, 255, 255, 0.74);
+  }
+  
+  .display {
+    margin-bottom: 10px;
+  }
+  
+  #display {
+    width: 100%;
+    padding: 1px;
+    font-size: 50px;
+    text-align: right;
+    border-radius: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 10px;
+  }
+  
+  .btn {
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: box-shadow 0.5s ease;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 4px solid rgba(255, 255, 255, 0.74);
+  }
+  
+  .btn:hover {
+    background-color: #c7e5c8;
+    box-shadow: 30px 10px 16px rgba(205, 201, 201, 0.104); 
+  }
+  
+  h1 {
+    padding-left: 40%;
+    justify-content: center;
+  }
+  
+  h1 {
+   
+    font-size: 150%;
+    padding-left: 25%;
+    justify-content: center;
+  }
+  
+  h2 {
+    font-size: 130%;
+    text-align: center;
+  }
+  
